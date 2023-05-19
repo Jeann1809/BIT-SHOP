@@ -1,0 +1,21 @@
+{
+  "name": "bit-shop",
+  "version": "1.0.0",
+  "description": "Practica tienda virtual",
+  "main": "src/app.ts",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.1.1",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
